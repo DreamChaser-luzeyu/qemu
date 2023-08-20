@@ -1,7 +1,9 @@
 # QEMU
 
 官方文档 [跳转](README.rst)
+个人学习笔记 [跳转](notes.md)
 
+## 编译安装
 安装依赖
 ```bash
 sudo apt-get install git libglib2.0-dev libfdt-dev libpixman-1-dev zlib1g-dev ninja-build
@@ -48,3 +50,4 @@ mkdir build && cd build
 ```bash
 bear -- make -j14
 ```
+最后可以在build目录下找到生成的二进制文件。
